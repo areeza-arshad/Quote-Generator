@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Quote.css';
 import reload_icon from './Assets/reload.png';
 import twt_icon from './Assets/twt.png';
-const apiUrl = "https://api.adviceslip.com/advice";
+const apiUrl = "https://corsproxy.io/?https://api.adviceslip.com/advice";
 
 const Quote = () => {
     const [quote, setQuote] = useState('dont judge a book by its cover');
